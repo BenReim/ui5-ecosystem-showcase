@@ -32,6 +32,7 @@
         <DateTimePicker id="DateTimePicker" placeholder="Enter Date ..." />
         <Button text="Don't press me!" press="onBoo" />
         <Button text="Test 3rd party!" press="navTest3rd" />
+        <Button text="Test WebSocket!" press="testWebSocket" />
         <lib:Example text="Hello World" />
       </VBox>
     </content>

@@ -184,6 +184,10 @@ server:
       beforeMiddleware: serveResources
       configuration:
         debug: true
+    - name: ui5-middleware-websocket
+      afterMiddleware: compression
+    - name: ui5-middleware-websocket-test
+      afterMiddleware: ui5-middleware-websocket
     # Last middleware (for the same afterMiddleware) comes first!
     - name: ui5-middleware-livereload
       afterMiddleware: compression
