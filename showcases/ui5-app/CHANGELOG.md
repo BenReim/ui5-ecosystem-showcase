@@ -3,6 +3,87 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.32.10](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.9...ui5-app@0.32.10) (2023-10-03)
+
+**Note:** Version bump only for package ui5-app
+
+
+
+
+
+## [0.32.9](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.8...ui5-app@0.32.9) (2023-10-03)
+
+**Note:** Version bump only for package ui5-app
+
+
+
+
+
+## [0.32.8](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.7...ui5-app@0.32.8) (2023-10-03)
+
+**Note:** Version bump only for package ui5-app
+
+
+
+
+
+## [0.32.7](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.6...ui5-app@0.32.7) (2023-10-02)
+
+**Note:** Version bump only for package ui5-app
+
+
+
+
+
+## [0.32.6](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.5...ui5-app@0.32.6) (2023-10-01)
+
+**Note:** Version bump only for package ui5-app
+
+
+
+
+
+## [0.32.5](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.4...ui5-app@0.32.5) (2023-10-01)
+
+
+### Bug Fixes
+
+* **ui5-tooling-module:** support this context in modules ([#858](https://github.com/ui5-community/ui5-ecosystem-showcase/issues/858)) ([678f3bd](https://github.com/ui5-community/ui5-ecosystem-showcase/commit/678f3bde91f1317ea8d90c8214767ef09d3ce2eb))
+
+
+
+
+
+## [0.32.4](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.3...ui5-app@0.32.4) (2023-09-30)
+
+
+### Bug Fixes
+
+* **ui5-middleware-websocket:** support express.Router usage ([#851](https://github.com/ui5-community/ui5-ecosystem-showcase/issues/851)) ([43df10c](https://github.com/ui5-community/ui5-ecosystem-showcase/commit/43df10c21bb61b898331b301c21c2bb0ab22debb))
+
+
+
+
+
+## [0.32.3](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.2...ui5-app@0.32.3) (2023-09-27)
+
+**Note:** Version bump only for package ui5-app
+
+
+
+
+
+## [0.32.2](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.1...ui5-app@0.32.2) (2023-09-25)
+
+
+### Bug Fixes
+
+* **ui5-tooling-modules:** support repackaging of es modules ([#848](https://github.com/ui5-community/ui5-ecosystem-showcase/issues/848)) ([f8d5ea5](https://github.com/ui5-community/ui5-ecosystem-showcase/commit/f8d5ea59217190b61311cd96ac4adbfaab80bd9a))
+
+
+
+
+
 ## [0.32.1](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app@0.32.0...ui5-app@0.32.1) (2023-09-21)
 
 **Note:** Version bump only for package ui5-app

@@ -7,10 +7,6 @@ const createPatchedRouter = require("./lib/createPatchedRouter");
 const applyUI5Middleware = require("./lib/applyUI5Middleware");
 const rewriteHTML = require("./lib/rewriteHTML");
 
-// marker that the cds-plugin-ui5 plugin is running
-// to disable the ui5-middleware-cap if used in apps
-process.env["cds-plugin-ui5"] = true;
-
 // identify whether the execution should be skipped
 let skip = false;
 if (process.env["ui5-middleware-cap"]) {
@@ -23,6 +19,10 @@ if (process.env["ui5-middleware-cap"]) {
 
 // only hook into lifecycle if the plugin should not be skipped
 if (!skip) {
+	// marker that the cds-plugin-ui5 plugin is running
+	// to disable the ui5-middleware-cap if used in apps
+	process.env["cds-plugin-ui5"] = true;
+
 	// promise to await the bootstrap and lock the
 	// served event to delay the startup a bit
 	let bootstrapped;
@@ -123,7 +123,14 @@ if (!skip) {
 									newLis.push(li.toString());
 								}
 							});
-							newLis.push(...links.sort().map((link) => `<li><a class="ui5" href="${link}">${link}</a></li>`));
+							newLis.push(
+								...links.sort().map((link) => {
+									// we remove the query parameters from the link text
+									const linkText = link.indexOf("?") === -1 ? link : link.substr(0, link.indexOf("?"));
+									// renders a UI5 link ;-)
+									return `<li><a class="ui5" href="${link}">${linkText}</a></li>`;
+								})
+							);
 							ul.innerHTML = newLis.join("\n");
 						} else {
 							log.warn(`Failed to inject application links into CDS index page!`);
@@ -157,6 +164,8 @@ if (!skip) {
 // return callback for plugin activation
 module.exports = {
 	activate: function activate(conf) {
-		log.debug("activate", conf);
+		if (!skip) {
+			log.debug("activate", conf);
+		}
 	},
 };

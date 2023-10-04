@@ -1,6 +1,6 @@
 {
   "name": "ui5-middleware-cfdestination",
-  "version": "3.3.1",
+  "version": "3.3.6",
   "description": "UI5 middleware for CF destinations",
   "author": "Volker Buzek, Peter Muessig",
   "license": "Apache-2.0",
@@ -22,13 +22,13 @@
     "timeout": "20s"
   },
   "dependencies": {
-    "@sap/approuter": "^14.3.1",
+    "@sap/approuter": "^14.3.2",
     "content-type": "^1.0.5",
     "dotenv": "^16.3.1",
     "http-proxy-middleware": "^2.0.6",
     "mime-types": "^2.1.35",
     "portfinder": "^1.0.32",
-    "ui5-middleware-websocket": "workspace:^"
+    "ui5-utils-express": "workspace:^"
   },
   "devDependencies": {
     "@ui5/cli": "^3.6.0",
@@ -40,6 +40,7 @@
     "nock": "^13.3.3",
     "replace-in-file": "^7.0.1",
     "supertest": "^6.3.3",
+    "ui5-middleware-websocket": "workspace:^",
     "wait-on": "^7.0.1"
   }
 }

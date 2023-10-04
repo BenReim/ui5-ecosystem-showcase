@@ -3,7 +3,7 @@ const path = require("path")
 
 const approuter = require("@sap/approuter")()
 
-const hook = require("ui5-middleware-websocket/lib/hook")
+const hook = require("ui5-utils-express/lib/hook")
 const { createProxyMiddleware, responseInterceptor } = require("http-proxy-middleware")
 const ct = require("content-type")
 const mime = require("mime-types")
@@ -326,10 +326,10 @@ module.exports = async ({ log, options, middlewareUtil }) => {
 					redirected: true
 				}
 				// redirect the response to baseUrl + url
-				const baseUrl = req["cds-plugin-ui5"]?.baseUrl || "/"
+				const baseUrl = req["ui5-patched-router"]?.baseUrl || "/"
 				return res.redirect(`${baseUrl !== "/" ? baseUrl : ""}${req.url}`)
-			} else if (req["cds-plugin-ui5"]?.originalUrl) {
-				proxyReq.setHeader("x-forwarded-path", req["cds-plugin-ui5"].originalUrl)
+			} else if (req["ui5-patched-router"]?.originalUrl) {
+				proxyReq.setHeader("x-forwarded-path", req["ui5-patched-router"].originalUrl)
 			}
 		},
 		/*

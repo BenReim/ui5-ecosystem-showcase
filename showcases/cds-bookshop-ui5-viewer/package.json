@@ -1,6 +1,6 @@
 {
   "name": "cds-bookshop-ui5-viewer",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "UI5 bookshop viewer referenced in cds-bookshop",
   "private": true,
   "author": "Nicolai Schoenteich, Peter Muessig",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@ui5/cli": "^3.6.0",
-    "rimraf": "^5.0.1",
+    "rimraf": "^5.0.5",
     "ui5-middleware-livereload": "workspace:^",
     "ui5-task-zipper": "workspace:^"
   }

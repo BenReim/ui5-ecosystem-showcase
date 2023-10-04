@@ -1,6 +1,6 @@
 {
   "name": "ui5-bookshop",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "UI5 bookshop application using custom tooling extensions",
   "private": true,
   "author": "Nicolai Schoenteich, Peter Muessig",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@ui5/cli": "^3.6.0",
-    "rimraf": "^5.0.1",
+    "rimraf": "^5.0.5",
     "ui5-middleware-index": "workspace:^",
     "ui5-middleware-livereload": "workspace:^",
     "ui5-task-zipper": "workspace:^"

@@ -1,6 +1,6 @@
 {
   "name": "ui5-middleware-cap",
-  "version": "3.1.5",
+  "version": "3.2.0",
   "description": "UI5 tooling middleware embedding the CDS server middlewares (CAP)",
   "author": "Peter Muessig",
   "license": "Apache-2.0",
@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/ui5-community/ui5-ecosystem-showcase.git",
     "directory": "packages/ui5-middleware-cap"
+  },
+  "dependencies": {
+    "ui5-utils-express": "workspace:^"
   },
   "devDependencies": {
     "@sap/cds": "^6.8.4",

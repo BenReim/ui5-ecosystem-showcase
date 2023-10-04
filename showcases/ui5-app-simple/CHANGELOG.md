@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.6](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.6.5...ui5-app-simple@0.6.6) (2023-10-03)
+
+**Note:** Version bump only for package ui5-app-simple
+
+
+
+
+
+## [0.6.5](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.6.4...ui5-app-simple@0.6.5) (2023-10-02)
+
+**Note:** Version bump only for package ui5-app-simple
+
+
+
+
+
+## [0.6.4](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.6.3...ui5-app-simple@0.6.4) (2023-10-01)
+
+**Note:** Version bump only for package ui5-app-simple
+
+
+
+
+
+## [0.6.3](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.6.2...ui5-app-simple@0.6.3) (2023-10-01)
+
+**Note:** Version bump only for package ui5-app-simple
+
+
+
+
+
+## [0.6.2](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.6.1...ui5-app-simple@0.6.2) (2023-09-27)
+
+**Note:** Version bump only for package ui5-app-simple
+
+
+
+
+
+## [0.6.1](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.6.0...ui5-app-simple@0.6.1) (2023-09-25)
+
+**Note:** Version bump only for package ui5-app-simple
+
+
+
+
+
 # [0.6.0](https://github.com/ui5-community/ui5-ecosystem-showcase/compare/ui5-app-simple@0.5.3...ui5-app-simple@0.6.0) (2023-09-12)
 
 

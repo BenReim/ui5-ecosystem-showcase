@@ -1,7 +1,7 @@
 {
   "name": "approuter",
   "description": "Showcase for the dev-approuter",
-  "version": "0.0.15",
+  "version": "0.0.20",
   "private": "true",
   "author": "Nicolai Schoenteich, Peter Muessig",
   "license": "Apache-2.0",
@@ -15,7 +15,7 @@
     "start": "node -e 'new require(`@sap/approuter`)().start()' _"
   },
   "dependencies": {
-    "@sap/approuter": "^14.3.1"
+    "@sap/approuter": "^14.3.2"
   },
   "devDependencies": {
     "cds-bookshop": "workspace:^",
