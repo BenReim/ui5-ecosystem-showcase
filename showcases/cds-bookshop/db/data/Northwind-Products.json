@@ -1,7 +1,7 @@
 [
   {
     "ProductID": 1,
-    "ProductName": "Chai",
+    "ProductName": "Mock Product #1",
     "SupplierID": 1,
     "CategoryID": 1,
     "QuantityPerUnit": "10 boxes x 20 bags",
@@ -28,7 +28,7 @@
   },
   {
     "ProductID": 2,
-    "ProductName": "Chang",
+    "ProductName": "Mock Product #2",
     "SupplierID": 1,
     "CategoryID": 1,
     "QuantityPerUnit": "24 - 12 oz bottles",
@@ -55,7 +55,7 @@
   },
   {
     "ProductID": 3,
-    "ProductName": "Aniseed Syrup",
+    "ProductName": "Mock Product #3",
     "SupplierID": 1,
     "CategoryID": 2,
     "QuantityPerUnit": "12 - 550 ml bottles",

@@ -65,6 +65,16 @@
           "cwd": "${workspaceFolder}",
           "console": "integratedTerminal",
           "internalConsoleOptions": "neverOpen"
-        }
+        },
+        {
+          "name": "Run npm start:mock (Dev Approuter)",
+          "request": "launch",
+          "runtimeVersion": "20",
+          "type": "node",
+          "console": "integratedTerminal",
+          "runtimeExecutable": "pnpm",
+          "args": [ "--filter=approuter", "start:mock" ],
+          "cwd": "${workspaceFolder}",
+        },
     ]
 }
